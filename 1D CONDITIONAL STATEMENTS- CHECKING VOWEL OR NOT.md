@@ -25,4 +25,4 @@ else:
 
 ## RESULT
 
-Thus Python program to check whether the given character is a vowel or not using if..else statement is executed.
+Thus Python program to check whether the given character is a vowel or not using if..else statement is executed successfully.
