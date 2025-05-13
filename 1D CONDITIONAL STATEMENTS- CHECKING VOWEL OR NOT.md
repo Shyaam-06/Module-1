@@ -14,10 +14,14 @@ To Write a Python program to check whether the given character is a vowel or not
 ## PROGRAM
 
 ch=input()
+
 if ch in "AEIOUaeiou":
-    print("The given character is a vowel")
+
+  print("The given character is a vowel")
+
 else:
-    print("The given character is NOT a vowel")
+
+  print("The given character is NOT a vowel")
 
 
 ## OUTPUT
