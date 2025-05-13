@@ -15,20 +15,20 @@ To write a Python program to find the minimum between three integer numbers usin
 5. Terminate the program.
 
 ## PROGRAM
-```python
-# Reg.No-
-# Name-
-# Write your code here
+a=int(input())
+b=int(input())
+c=int(input())
 
-num1 = int(input())
-num2 = int(input())
-num3 = int(input())
-
-min_num = num1 if (num1 <= num2 and num1 <= num3) else num2 if (num2 <= num1 and num2 <= num3) else num3
-
-print(f"The minimum of {num1}, {num2}, {num3} is {min_num}")
-```
+if a<b and a<c :
+    print(f"The Smallest  of the three a= {a} b= {b} c= {c} is {a}")
+elif b<a and b<c:
+    print(f"The Smallest  of the three a= {a} b= {b} c= {c} is {b}")
+else:
+    print(f"The Smallest  of the three a= {a} b= {b} c= {c} is {c}")
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/bd9e7dce-d470-43d2-815a-65e0326f2028)
+
 
 ## RESULT
+Thus Python program to find the minimum between three integer numbers using a conditional expression is executed successfully
