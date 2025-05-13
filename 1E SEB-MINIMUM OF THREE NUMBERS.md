@@ -15,16 +15,24 @@ To write a Python program to find the minimum between three integer numbers usin
 5. Terminate the program.
 
 ## PROGRAM
+
 a=int(input())
+
 b=int(input())
+
 c=int(input())
 
 if a<b and a<c :
-    print(f"The Smallest  of the three a= {a} b= {b} c= {c} is {a}")
+
+   print(f"The Smallest  of the three a= {a} b= {b} c= {c} is {a}")
+
 elif b<a and b<c:
-    print(f"The Smallest  of the three a= {a} b= {b} c= {c} is {b}")
+   
+   print(f"The Smallest  of the three a= {a} b= {b} c= {c} is {b}")
+
 else:
-    print(f"The Smallest  of the three a= {a} b= {b} c= {c} is {c}")
+   
+   print(f"The Smallest  of the three a= {a} b= {b} c= {c} is {c}")
 
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/bd9e7dce-d470-43d2-815a-65e0326f2028)
